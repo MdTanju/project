@@ -1,4 +1,85 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+header{
+
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.logo {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 20px;
+}
+ div .naver {
+   
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.naver ul {
+    list-style: none;
+    display: flex;
+    
+
+}
+.naver ul li  {
+    
+    text-decoration: none;
+    background-color: brown;
+    width: 110px;
+    border: 1px solid beige;
+    text-align: center;
+    float: left
+    ;
+    color: aliceblue;
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+
+}
+.naver ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.section {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+.text .img {
+    width: 50%;
+}
+.text {
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.text h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.img {
+     padding: 150px;
+}
+.img img {
+    width: 300px;
+    height: 300px;
 }
